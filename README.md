@@ -110,10 +110,9 @@ For any additional questions, please contact Monique Hercules Email: moniqueherc
 
 ## Repository Structure:
 ```
-├── images                              <- Both sourced externally and generated from code
-├── git ignore                          <- The git ignore Irrelevant for reviewers of this project
 ├── data                                <- Both sourced externally and generated from code
-├── dsc-phase1-project.ipynb            <- Narrative documentation of analysis in Jupyter notebook
-├── README.md                           <- The top-level README for reviewers of this project
-└── A_New_Movie_Studio.pdf              <- PDF version of project presentation
+├── images                              <- Both sourced externally and generated from code
+├── Phase_2_Project.ipynb               <- Narrative documentation of analysis in Jupyter notebook
+├── Hello_Homes_Expanision_Project.pdf  <- PDF version of project presentation
+└── README.md                           <- The top-level README for reviewers of this project
 ```
