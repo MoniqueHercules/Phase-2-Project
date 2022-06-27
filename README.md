@@ -43,7 +43,7 @@ Used Statsmodel with OLS to model data, with the  use of p values, variance chec
 ### Visuals 
 
 ![refined_initial_model](./images/refined_initial_model.png)
-![model_3_refined](./images/model_3_refined.png)
+![model_3_refined](./images/model_3_refine.png)
 ![model_4_refined](./images/model_4_refined.png)
 
 
