@@ -41,25 +41,27 @@ Chose multiple linear regression to accurately study the narrative between the v
 Used Statsmodel with OLS to model data, with the  use of p values, variance check and homoscedasticity to refine model. 
 
 ### Visuals 
-
+#### Initial Model
 ![refined_initial_model](./images/refined_initial_model.png)
+
+#### Chosen Model for Conclusions - Model 3
 ![model_3_refined](./images/model_3_refine.png)
+
+#### Final Model - Model 4
 ![model_4_refined](./images/model_4_refined.png)
 
 
 ## Results
-Decided to use the model refinement 3 to draw results from: 
+Decided to use Model 3 to draw results from: 
 Model 3 had a higher R squared value than model 4 at 0.37 
 SQFT 
-Is this sqft living per a sqft or overall, The ideal sqft living price range being around $115
+The ideal sqft living price range being around $115
 
 Conditions 
 Homes that had conditions fair degrades price range by $35,000 while homes with condition very good increase home prices by $65,000. 
 
 Floors 
 Lofts, townhouses and three stories homes are the most profitable with floors at 2.5 being the best by increasing the price by $66,000
-
-THe coefficients used are 
 
 ## Regression Results 
 
@@ -68,7 +70,7 @@ Model 3 has a R-squared of 0.377 making it the most accurate of the models so fa
 ***Coefficients***
 - The target price per a sqft living is $115. 
 
-- Through out the various levels of a home two story homes degraded the price of a home by 14,000. While 2.5 story homes increase the price by 66,000.Lofts being the ideal by bringing up the price to 74,000.
+- Through out the various levels of a home two story homes degraded the price of a home by 14,000. While 2.5 story homes increase the price by 66,000.Lofts being the ideal by bringing up the price by 74,000.
 
 - The condition of the home influence the price greatly.With the condition of fair bringing down the home value by 35,000 while the condition status of good increases the home value by 22,000. The ideal condition status for homes value is very good increasing the price by 65,000. 
 
