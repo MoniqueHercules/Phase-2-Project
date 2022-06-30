@@ -50,59 +50,39 @@ Used Statsmodel with OLS to model data, with the  use of p values, variance chec
 #### Final Model - Model 4
 ![model_4_refined](./images/model_4_refined.png)
 
-
-## Results
-Decided to use Model 3 to draw results from: 
-Model 3 had a higher R squared value than model 4 at 0.37 
-SQFT 
-The ideal sqft living price range being around $115
-
-Conditions 
-Homes that had conditions fair degrades price range by $35,000 while homes with condition very good increase home prices by $65,000. 
-
-Floors 
-Lofts, townhouses and three stories homes are the most profitable with floors at 2.5 being the best by increasing the price by $66,000
-
 ## Regression Results 
 
-Model 3 has a R-squared of 0.377 making it the most accurate of the models so far.
+Model 3 has a R-squared of 0.415 making it the most accurate of the models so far.
 
 ***Coefficients***
-- The target price per a sqft living is $115. 
+- The target price per a sqft living is $95. 
 
-- Through out the various levels of a home two story homes degraded the price of a home by 14,000. While 2.5 story homes increase the price by 66,000.Lofts being the ideal by bringing up the price by 74,000.
+- Through out the various levels of a home two story homes degraded the price of a home by 23,000. While 2.5 story homes increase the price by 58,000.Lofts being the ideal by bringing up the price to 77,000.
 
-- The condition of the home influence the price greatly.With the condition of fair bringing down the home value by 35,000 while the condition status of good increases the home value by 22,000. The ideal condition status for homes value is very good increasing the price by 65,000. 
-
-*** Grading scale and influence on price:***
-- Grade 3 Poor decreases price by $107,000
-- Grade 4 Low decreases price by 117,000
-- Grade 5 Fair decreases price by 112,000
-- Grade 6 Low Average decreases price by 74,000
-- Grade 8 Good increases price by 85,000
-- Grade 9 Better increases price by 125,000
+- The condition of the home influence the price greatly.With the condition of fair bringing down the home value by 32,000 while the condition status of good increases the home value by 25,000. The ideal condition status for homes value is very good increasing the price by 70,000. 
 
 Draw Backs:
-This model lacks in depth information about bathrooms and bedrooms with bedrooms 3 and 4 being being negative. 
+This model lacks in depth information about bathrooms and bedrooms with bedrooms 3 and 4 both being being negative. Grading status also seems to be unreliable with even positive grading scale decreasing the price of a home.  
 
 
 ## Conclusions
 After doing the analysis, the three recommendations for Hello Homes Building Expanision:
 
-- Build various homes with the grade status 8 and 9 to increase the value of the up to 125,000. Any homes bought within the grades 3-6  will need to to be flipped to be a higher grade than 6 increasing the price value. 
+- Target price per a sqft at $95
 
-- While all houses flipped/made will also need to meet the condition very good to ensure the price value increases by 65,000.
+- Focus on building more lofts, townhouses and three stories homes since they are the most profitable. Avoid regular two story homes and instead aim for 2.5 which is the best increasing the price of home by 58,000. 
 
-- Focus on building more lofts, townhouses and three stories homes since they are the most profitable.While targeting price per a sqft at $115. Avoid regular two story homes and instead aim for 2.5 which is the best increasing the price of home by 66,000. 
+- While all houses flipped/made will also need to meet the condition very good to ensure the price value increases by 70,000.
 
 ## Next Steps 
 Attributes for Hello Homes to consider for further analysis, based on Model 3: 
 
-Limitations :The model is on the weaker side with a R-squared value of 0.37, preferable we would have a model with a higher r-squared conveying a more accurate model.
+Limitations :The model is on the weaker side with a R-squared value of 0.415, preferable we would have a model with a higher r-squared conveying a more accurate model.
 
-Limited Data: Bedrooms and bathrooms are both negative in model 3 as well as lacking options in their respective groups to draw conclusions from. Expand the predictor variables to have more aspects of a home to mix and match for future properties 
+Limited Data: Bedrooms and bathrooms are both negative in model 3 as well as lacking options in their respective groups to draw conclusions from. Expand the predictor variables to have more aspects of a home to mix and match for future properties. Grading status seems unreliable with even a positive grade conveying a decrease in home value. 
 
 Issues with multicollinearity :Even after verifying assumptions for multicollinearity the error still appeared under the models final results, for future use multicollinearity need to be reduced. 
+ 
 
 ## For More Information
 Please review my full analysis in my Jupyter Notebook or my presentation.
