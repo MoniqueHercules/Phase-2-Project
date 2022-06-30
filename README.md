@@ -48,7 +48,7 @@ Used Statsmodel with OLS to model data, with the  use of p values, variance chec
 ![model_3_refined](./images/model_3_refine.png)
 
 #### Final Model - Model 4
-![model_4_refined](./images/model_4_refined.png)
+![model_4_final](./images/model_4_final.png)
 
 ## Regression Results 
 
@@ -72,16 +72,16 @@ After doing the analysis, the three recommendations for Hello Homes Building Exp
 
 - Focus on building more lofts, townhouses and three stories homes since they are the most profitable. Avoid regular two story homes and instead aim for 2.5 which is the best increasing the price of home by 58,000. 
 
-- While all houses flipped/made will also need to meet the condition very good to ensure the price value increases by 70,000.
+- While all houses flipped/made will also need to meet the condition good to ensure the price value increases by 25,000.
 
 ## Next Steps 
 Attributes for Hello Homes to consider for further analysis, based on Model 3: 
 
 Limitations :The model is on the weaker side with a R-squared value of 0.415, preferable we would have a model with a higher r-squared conveying a more accurate model.
 
-Limited Data: Bedrooms and bathrooms are both negative in model 3 as well as lacking options in their respective groups to draw conclusions from. Expand the predictor variables to have more aspects of a home to mix and match for future properties. Grading status seems unreliable with even a positive grade conveying a decrease in home value. 
+Limited Data: Bedrooms is negative in model 3 as well as lacking options in their respective groups to draw conclusions from. Expand the predictor variables to have more aspects of a home to mix and match for future properties. Grading status seems unreliable with even a positive grade conveying a decrease in home value.
 
-Issues with multicollinearity :Even after verifying assumptions for multicollinearity the error still appeared under the models final results, for future use multicollinearity need to be reduced. 
+Issues with multicollinearity :Even after verifying assumptions for multicollinearity the error still appeared under the models final results, for future use multicollinearity need to be reduced.  
  
 
 ## For More Information
@@ -95,6 +95,6 @@ For any additional questions, please contact Monique Hercules Email: moniqueherc
 ├── data                                <- Both sourced externally and generated from code
 ├── images                              <- Both sourced externally and generated from code
 ├── Phase_2_Project.ipynb               <- Narrative documentation of analysis in Jupyter notebook
-├── Hello_Homes_Expanision_Project.pdf  <- PDF version of project presentation
+├── Hello_Homes_Expansion_Project.pdf  <- PDF version of project presentation
 └── README.md                           <- The top-level README for reviewers of this project
 ```
